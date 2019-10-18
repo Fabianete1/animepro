@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AnimeVF</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="img/icono.png" />
+    <link rel="stylesheet" type="text/css" href="css/resgistro.css">
+
+
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/corazon.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+          ANIMEVF
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="navbar-nav mr-auto ml-auto text-center">
+            <a class="nav-item nav-link active" href="index.html">Inicio</a>
+            <a class="nav-item nav-link" href="Anime.html">Anime</a>
+            <a class="nav-item nav-link" href="Manga.html">Mangas</a>
+            <a class="nav-item nav-link" href="Galeria.html">Wallpapers</a> 
+            <div class="resgistro">
+                <a class="nav-item nav-link" href="Resgistro.html"  >Registro</a>
+            </div> 
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+        
+        
+<section>
+<form id="registro" name="datos" method="POST" action="envio.html";>
+    
+        <h1> Registro de Usuario </h1>
+        <label for="usuario"> Nombre y Apellidos </label>
+        <input type="text" name="usuario" placeholder="Digite nombre Completo" > <br>
+
+      
+
+        <label for="ciudad"> Ciudad de procedencia </label>
+        <input type="text" name="pass" placeholder=" Digite su ciudad " > <br>
+      
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fecha_nac"> <br>
+
+        
+        <label for="Pais">Pais</label> 
+        <div class="caja">
+            <select > 
+
+                <option >Haiti</option>
+                <option >Peru</option>
+                <option >Venezuela</option>
+                <option >Colombia</option>
+                <option >Argentina</option>
+                <option >Costa rica</option>
+                <option >Mexico</option>
+                <option >Paraguay</option>
+                <option >Bolivia</option>
+                <option >Brazil</option>
+
+
+            </select> <br>  
+        </div>     
+
+
+        
+        <label for="estado">Estado Civil</label>
+        <div class="caja">
+        <select >
+            <option >Soltero</option>
+            <option >Casado/a</option>
+            <option >Viudo/a</option>
+            <option >Divorciado</option>
+
+
+        </select>
+        </div> <br>
+        
+        <label for="estado">Profesion</label>
+        <div class="caja">
+        <select >
+            <option >Ing. Informatico</option>
+            <option >Arquitecto.</option>
+            <option >Psicologo</option>
+            <option >Diseñador Grafico</option>
+            <option >Medico</option>
+            <option >Chef</option>
+            <option >Abogado</option>
+            <option >Periodista</option>
+            <option >Arqueologo</option>
+            <option >Otros</option>
+
+
+        </select> <br>
+        </div>
+
+        <label for="hijos">Hijos</label>
+        <input  type="radio" name="Hijos" value="bailar"> Si 
+        <input  type="radio" name="Hijos" value="jugar"> No  
+        <br>
+
+
+
+        <label for="Ingrese numeros"> Nº de Hijos</label>
+        <input type="number" name="numer" placeholder=" seleccione un numero " min="0" max="99" > <br>
+
+        <label for="fecha_in">Fecha de Ingreso</label>
+        <input type="date" name="fecha_in" > <br>
+        
+        <label for="Vivienda">Vivienda</label>
+        <div class="caja">
+        <select >
+            <option >Arriendo</option>
+            <option >Compra</option>
+            <option >No Informa</option>
+
+        </select>   
+        </div> <br>
+
+      
+        <label for="Prevision">Prevision</label> 
+        <div class="caja">
+        <select >
+            <option >Fonasa</option>
+            <option >Isapre</option>
+            <option >No Informa</option>
+
+        </select>
+        </div> <br>
+
+
+        
+        <label for="Motivo">Motivo de contacto</label>
+        <div class="caja">
+        <select >
+            
+            <option >Laboral</option>
+            <option >Leyes de Migración</option>
+            <option >Asesoria Familiar</option>
+            <option >Trabajo</option>
+            <option >Otros</option>
+
+        </select> <br>
+        </div>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder=" Digite correo electronico "><br>
+
+        
+        <button type="submit" >Entrar</button>
+
+  
+    </form>
+           
+        </section>
+</div>
+    <footer>
+        <P> Contacto: <a href="tel/+569123456789">+569123456789</a></P>
+		<P> Email : <a href="mailto:duoc@hotmail.com">duoc@hotmail.com</a>
+                </P>
+                <p>Derechos Reservados &copy; / Vicente Liberona - Fabian Villagra   </p>
+    </footer>
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
